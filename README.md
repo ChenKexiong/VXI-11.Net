@@ -18,13 +18,14 @@ VXI-11.NET はプログラム初心者向けのクラスルームでの学習を
   - サーバ側で応答メッセージを入力します
   - クライアント側に応答メッセージが表示されます
 
-## 標準開発環境
+## 開発環境
 無料で入手でき商用利用の制限がなく、シェアの高いツールを標準開発環境とします。
 - OS：Windows 11（有償ソフト）
 - コンパイラ：Net 6 SDK
-- リポジトリ：GitHub
-- 構成管理ツール：Git for Windows, TortoiseGit
 - エディタ：Visual Studio Code
+- 構成管理ツール：Git for Windows, TortoiseGit
+以下のクラウドサービスを利用します
+- リポジトリ：GitHub
 - CI/CD：GitHub Actions
 
 ## 品質目標
