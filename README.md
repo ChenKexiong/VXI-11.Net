@@ -24,6 +24,7 @@ VXI-11.NET はプログラム初心者向けのクラスルームでの学習を
 - コンパイラ：Net 6 SDK
 - エディタ：Visual Studio Code
 - 構成管理ツール：Git for Windows, TortoiseGit
+
 以下のクラウドサービスを利用します
 - リポジトリ：GitHub
 - CI/CD：GitHub Actions
