@@ -1,5 +1,5 @@
 # VXI-11.Net
-VXI-11.NET はプログラム初心者向けのクラスルームでの学習を対象とするVXI-11通信ソフトです。VXI-11.Net は the GNU General Public License version2のもとで公開されます。
+VXI-11.NET はプログラム初心者向けのクラスルームでの学習を目的とするVXI-11通信ソフトです。VXI-11.Net は the GNU General Public License version 2 のもとで公開されます。
 
 ## VXI-11.Netの特徴
 - VXI-11 サーバとVXI-11 クライアントを実現します。
