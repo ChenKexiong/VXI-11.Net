@@ -1,9 +1,9 @@
 # VXI-11.Net
-VXI-11.NET is a VXI-11 communication software for classroom training.
+VXI-11.Net is a VXI-11 communication software for classroom training.
 
 ## Overview
-- VXI-11 server and VXI-11 client by C#.
-- It supports all message type of VXI-11.
+- VXI-11 server and client by C#.
+- Supports all message type of VXI-11.
 - Error handling is mostly omitted.
 - Supports a part of VISA and TMCTL libraries.
 - Provides interactive software runs on a console.
