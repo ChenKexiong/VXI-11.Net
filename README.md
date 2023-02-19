@@ -1,46 +1,36 @@
 # VXI-11.Net
-VXI-11.NET はプログラム初心者向けのクラスルームでの学習を目的とするVXI-11通信ソフトです。VXI-11.Net は the GNU General Public License version 2 のもとで公開されます。
+VXI-11.NET is a VXI-11 communication software for classroom training.
 
-## VXI-11.Netの特徴
-- VXI-11 サーバとVXI-11 クライアントを実現します。
-- Windows と Linux を動作環境とします。
-- NET 6(C# 7.3)でプログラムを作成します。
-- VISA ライブラリの API からソケットプログラムまで実装します。
-- エラー処理を可能な限り省略し、少ないソースコード行数で VXI-11 の機能を実装します。
-- ファイルの数や関数の呼び出し階層を少なくします
+## Overview
+- VXI-11 server and VXI-11 client by C#.
+- It implements all message type of VXI-11.
+- To focus on the main architecture of VXI-11, error handling is mostly omitted.
+- Supports some functions of VISA and TMCTL libraries as interactive operation.
  
-## 動作方法
-- サーバを起動します。
-- クライアントを起動します。
-  - クライアント側で接続先IPアドレスを入力します。
-  - クライアント側でコマンドを入力します
-  - サーバ側にコマンドが表示されます
-  - サーバ側で応答メッセージを入力します
-  - クライアント側に応答メッセージが表示されます
-## 通信シーケンスの確認方法
-- Wireshark を起動します。
-  - キャプチャ開始ボタンをクリックします。
-  - loopback interface を選びます。。
-- サーバー・クライアントを操作します。
+## Requirement
+- Windows 10 and Linux.
+- .Net 6 runtime.
+- Knowledge of interactive operation on console.
 
-## 開発環境
-無料で入手でき商用利用の制限がなく、シェアの高いツールを標準開発環境とします。
-- OS：Windows 11（有償ソフト）
-- コンパイラ：Net 6 SDK
-- エディタ：Visual Studio Code
-- 構成管理ツール：Git for Windows, TortoiseGit
+## Usage
+- Start the server on console window.
+- Start the client of console operations
+  - Enter the destination IP address on the client side.
+  - Enter the command on the client side.
+- On the server side.
+  - Receivee messsage will be displayed.
+  - Enter the response message.
+- On the cliend side.
+  - Receiveed messsage will be displayed.
+- You can see TCP stream by using Wireshark.
 
-以下のクラウドサービスを利用します
-- リポジトリ：GitHub
-- CI/CD：GitHub Actions
+# Reference
+- [TCP/IP Instrument Protocol Specification VXI-11 Revision 1.0](https://www.vxibus.org/files/VXI_Specs/VXI-11.zip)
+- [VPP-4.3.6:VISA Implementation Specification for .NET](https://www.ivifoundation.org/docs/vpp436_2016-06-07.pdf)
+- [TMCTL](https://tmi.yokogawa.com/library/documents-downloads/software/tmctl/)
 
-## 品質目標
-- ソースコードの記法について C# コーディングガイドを尊重します。
-- １関数の大きさは100行未満、１行の文字数は200文字未満を目安とします。
-- 奇抜な記法を使わず、C言語(C99)の記法を目安とします。
-- Github Actions を使って、Win, Linux, ホスト上でビルドを確認します
-- テストでは模擬　VXI-11 サーバを使用し、上記フィーチャーの動作を確認します。
-- テストカバレッジは正常動作パスのカバレッジ 100%、異常動作パスのカバレッジ0%をリリース指標とします。
+# Author
+Twitter:@mitakalab
 
-## 文書目標
-説明は簡潔にとどめ 1 ファイルのサイズは 4.0KB 以内を目安にします。
+# License
+GPL-2
