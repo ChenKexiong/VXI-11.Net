@@ -3,14 +3,14 @@ VXI-11.NET is a VXI-11 communication software for classroom training.
 
 ## Overview
 - VXI-11 server and VXI-11 client by C#.
-- It implements all message type of VXI-11.
-- To focus on the main architecture of VXI-11, error handling is mostly omitted.
-- Supports some functions of VISA and TMCTL libraries as interactive operation.
+- It supports all message type of VXI-11.
+- Error handling is mostly omitted.
+- Supports a part of VISA and TMCTL libraries.
+- Provides interactive software runs on a console.
  
 ## Requirement
 - Windows 10 and Linux.
 - .Net 6 runtime.
-- Knowledge of interactive operation on console.
 
 ## Usage
 - Start the server on console window.
