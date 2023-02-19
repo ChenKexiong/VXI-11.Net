@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>VXI11Net</RootNamespace>
-    <StartupObject>Ivi.Visa.Interop.FormattedIO488</StartupObject>
+    <StartupObject>TmctlAPINet.TMCTLconsole</StartupObject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -12,7 +12,8 @@
 
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="VISA.cs" />
+    <Compile Include="TMCTL.cs" />
+    <Compile Include="TMCTL_console.cs" />
   </ItemGroup>
 
 </Project>

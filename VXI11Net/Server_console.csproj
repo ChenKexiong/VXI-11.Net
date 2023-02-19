@@ -1,16 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>TmctlAPINet</RootNamespace>
+    <RootNamespace>VXI11Net</RootNamespace>
+    <StartupObject>TmctlAPINet.Serverconsole</StartupObject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="TMCTL.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Server_console.cs" />
   </ItemGroup>
 
 </Project>

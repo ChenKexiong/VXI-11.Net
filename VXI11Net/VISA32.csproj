@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>TmctlAPINet</RootNamespace>
+    <RootNamespace>VXI11Net</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="TMCTL.cs" />
+    <Compile Include="VISA32.cs" />
   </ItemGroup>
 
 </Project>
