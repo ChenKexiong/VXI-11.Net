@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <Compile Include="client.cs" />
+    <Compile Include="vISA32.cs" />
+    <Compile Include="vISA32_console.cs" />
+    <Compile Include="tmctl.cs" />
+    <Compile Include="tmctl_console.cs" />
   </ItemGroup>
 
 </Project>
