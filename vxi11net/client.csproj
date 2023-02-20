@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Client.cs" />
+    <Compile Include="client.cs" />
   </ItemGroup>
 
 </Project>

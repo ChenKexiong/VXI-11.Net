@@ -11,8 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Server.cs" />
-    <Compile Include="Server_console.cs" />
+    <Compile Include="server.cs" />
+    <Compile Include="server_console.cs" />
   </ItemGroup>
 
 </Project>

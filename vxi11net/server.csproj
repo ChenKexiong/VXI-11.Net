@@ -4,16 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>VXI11Net</RootNamespace>
-    <StartupObject>TmctlAPINet.TMCTLconsole</StartupObject>
+    <StartupObject>VXI11Net.DemoServer</StartupObject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="TMCTL.cs" />
-    <Compile Include="TMCTL_console.cs" />
+    <Compile Include="server.cs" />
   </ItemGroup>
-
 </Project>

@@ -1,28 +1,33 @@
 # VXI-11.Net
 VXI-11.Net is a VXI-11 communication software for classroom training.
 
-## Overview
+## Features
 - VXI-11 server and client by C#.
-- Supports all message type of VXI-11.
-- Error handling is mostly omitted.
-- Supports a part of VISA and TMCTL libraries.
-- Provides interactive software runs on a console.
+- Supports Windows and Linux.
+- Supports all message types of VXI-11.
+- Supports some functions of VISA and TMCTL libraries.
+- Error handling is not implemented for easy understandings.
  
+## Derivarables
+- VXI-11 server ：server.exe
+- VXI-11 client ：client.exe, visa32.dll, tmctl.dll
+
 ## Requirement
-- Windows 10 and Linux.
+- Windows 10 or Linux.
 - .Net 6 runtime.
 
 ## Usage
-- Start the server on console window.
-- Start the client of console operations
-  - Enter the destination IP address on the client side.
-  - Enter the command on the client side.
-- On the server side.
-  - Receivee messsage will be displayed.
-  - Enter the response message.
-- On the cliend side.
-  - Receiveed messsage will be displayed.
-- You can see TCP stream by using Wireshark.
+- Execute the server.exe.
+  - Start VXI-11 server.
+- Execute the client.exe.
+  - Input destination IP address.
+  - Input a command stirng.
+- On the server.exe.
+  - Received messsage will be displayed.
+  - Input a response string.
+- On the client.exe.
+  - Received messsage will be displayed.
+- You can see TCP stream by Wireshark.
 
 # Reference
 - [TCP/IP Instrument Protocol Specification VXI-11 Revision 1.0](https://www.vxibus.org/files/VXI_Specs/VXI-11.zip)

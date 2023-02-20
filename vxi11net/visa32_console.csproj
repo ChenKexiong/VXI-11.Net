@@ -1,16 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>VXI11Net</RootNamespace>
+    <RootNamespace>Ivi.Visa.Interop</RootNamespace>
+    <StartupObject>Ivi.Visa.Interop.VISA32console</StartupObject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="VISA32.cs" />
+    <Compile Include="client.cs" />
+    <Compile Include="vISA32.cs" />
+    <Compile Include="vISA32_console.cs" />
   </ItemGroup>
 
 </Project>

@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="TMCTL.cs" />
+    <Compile Include="client.cs" />
+    <Compile Include="tmctl.cs" />
   </ItemGroup>
 
 </Project>
