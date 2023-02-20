@@ -1,7 +1,7 @@
 # VXI-11.Net
 VXI-11.Net is a VXI-11 communication software for classroom training.
 
-## Features
+## Feature goal
 - VXI-11 server and client by C#.
 - Supports Windows and Linux.
 - Supports all message types of VXI-11.
@@ -14,7 +14,7 @@ VXI-11.Net is a VXI-11 communication software for classroom training.
 
 ## Requirement
 - Windows 10 or Linux.
-- .Net 6 runtime.
+- [.NET 6](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0).
 
 ## Usage
 - Execute the server.exe.
@@ -27,7 +27,7 @@ VXI-11.Net is a VXI-11 communication software for classroom training.
   - Input a response string.
 - On the client.exe.
   - Received messsage will be displayed.
-- You can see TCP stream by Wireshark.
+- You can check TCP stream by Wireshark.
 
 # Reference
 - [TCP/IP Instrument Protocol Specification VXI-11 Revision 1.0](https://www.vxibus.org/files/VXI_Specs/VXI-11.zip)
